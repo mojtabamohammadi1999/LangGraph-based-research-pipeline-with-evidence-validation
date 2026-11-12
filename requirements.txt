@@ -1,0 +1,9 @@
+
+openai
+python-dotenv
+langchain
+langchain-openai
+langgraph
+pydantic
+notebook
+ipykernel
