@@ -1,12 +1,12 @@
 
 from typing import TypedDict
 
-from src.schemas import Source, Fact, Evaluation
+from src.schemas import Source, Fact, Evaluation, ResearchPlan
 
 
 class ResearchState(TypedDict):
     user_query: str
-    research_plan: list[str]
+    research_plan: ResearchPlan | None
     current_task: str
 
     search_results: list[dict]
