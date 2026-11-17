@@ -3,6 +3,7 @@ from .fact import Fact
 from .evaluation import Evaluation
 from .research_task import ResearchTask
 from .research_plan import ResearchPlan
+from .search_result import SearchResult
 
 __all__ = [
     "Source",
@@ -10,4 +11,5 @@ __all__ = [
     "Evaluation",
     "ResearchTask",
     "ResearchPlan",
+    "SearchResult",
 ]
