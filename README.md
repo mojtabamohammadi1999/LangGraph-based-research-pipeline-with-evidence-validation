@@ -4,7 +4,7 @@
 
 **Try AI Research Agent online:**
 
-🚀 [Launch AI Research Agent](https://ai-research-agent-xsy9umkzad3bpyhmgwqlk2.streamlit.app/)
+🚀 [Launch AI Research Agent](https://ai-research-agent-azelwepexkmn4uqpqvghfj.streamlit.app/)
 
 Explore the application by submitting a research question and generating an evidence-based research report.
 

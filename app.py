@@ -1,8 +1,8 @@
 
 import streamlit as st
 from dotenv import load_dotenv
-
 from src.agent.graph import graph
+import logging
 
 load_dotenv()
 
@@ -102,4 +102,5 @@ if st.button("Start Research", type="primary"):
 
 
         except Exception as e:
+            logging.exception("Research workflow failed")
             st.error(f"Research failed: {str(e)}")
