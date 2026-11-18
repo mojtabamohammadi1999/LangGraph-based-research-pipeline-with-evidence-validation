@@ -28,3 +28,9 @@ Thumbs.db
 # Generated files
 data/*
 reports/*
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Logs
+*.log

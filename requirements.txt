@@ -1,9 +1,23 @@
 
-openai
-python-dotenv
-langchain
-langchain-openai
-langgraph
-pydantic
-notebook
-ipykernel
+
+# LLM and AI Frameworks
+openai==3.49.0
+langchain==1.5.0
+langchain-openai==1.7.4
+langgraph==1.2.21
+langchain-tavily==0.2.18
+
+# Data Validation
+pydantic==2.14.3
+
+# Environment Configuration
+python-dotenv==1.2.4
+
+# Web Search and Page Reading
+requests==2.34.2
+beautifulsoup4==4.15.0
+pypdf==7.1.0
+
+# User Interface
+streamlit==1.67.0
+
