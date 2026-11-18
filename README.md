@@ -1,18 +1,48 @@
 # 🔬 AI Research Agent
 
-## 🌐 Live Demo
+## 🚀 How to Run Locally
 
-**Try AI Research Agent online:**
+### 1. Clone the Repository
 
-🚀 [Launch AI Research Agent](https://ai-research-agent-azelwepexkmn4uqpqvghfj.streamlit.app/)
+```bash
+git clone https://github.com/mojtabamohammadi1999/ai-research-agent.git
+cd ai-research-agent
+```
 
-Explore the application by submitting a research question and generating an evidence-based research report.
+### 2. Create and Activate a Virtual Environment
 
-The application is hosted on Streamlit Community Cloud.
+```bash
+conda create -n ai-research-agent python=3.11
+conda activate ai-research-agent
+```
 
-> Note: The application may take a few moments to start. Its availability and performance depend on the hosting service and external API providers.
+### 3. Install Dependencies
 
-An AI-powered research assistant that searches the web, extracts relevant facts, and generates structured, evidence-based research reports.
+```bash
+pip install -r requirements.txt
+```
+
+### 4. Configure Environment Variables
+
+Create a `.env` file in the project root directory and add your API credentials:
+
+```env
+GAPGPT_API_KEY=your_api_key
+GAPGPT_BASE_URL=https://api.gapgpt.app/v1
+GAPGPT_MODEL=gpt-4o-mini
+TAVILY_API_KEY=your_tavily_api_key
+```
+
+Replace the placeholder values with your actual API credentials.
+
+### 5. Run the Application
+
+```bash
+streamlit run app.py
+```
+
+The application will open in your browser, where you can submit research questions and generate research reports.
+
 
 ## Overview
 

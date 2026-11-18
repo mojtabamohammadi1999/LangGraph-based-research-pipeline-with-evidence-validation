@@ -3,27 +3,10 @@ import streamlit as st
 from dotenv import load_dotenv
 from src.agent.graph import graph
 import logging
-import os
-import requests
+
 
 load_dotenv()
-
-if st.button("Test GapGPT Connection"):
-    try:
-        response = requests.get(
-            f"{os.getenv('GAPGPT_BASE_URL')}/models",
-            headers={
-                "Authorization": f"Bearer {os.getenv('GAPGPT_API_KEY')}"
-            },
-            timeout=15,
-        )
-
-        st.write("HTTP Status:", response.status_code)
-        st.success("Connection to GapGPT is reachable.")
-
-    except requests.exceptions.RequestException as e:
-        st.error(f"Connection failed: {type(e).__name__}: {e}")
-        
+       
 st.set_page_config(
     page_title="AI Research Agent",
     page_icon="🔬",
