@@ -4,11 +4,13 @@
 
 **Try AI Research Agent online:**
 
-[Launch AI Research Agent](YOUR_STREAMLIT_APP_URL)
+🚀 [Launch AI Research Agent](https://ai-research-agent-xsy9umkzad3bpyhmgwqlk2.streamlit.app/)
 
 Explore the application by submitting a research question and generating an evidence-based research report.
 
-> Note: The live demo may take a few moments to start. Its availability and performance depend on the hosting service and external API providers.
+The application is hosted on Streamlit Community Cloud.
+
+> Note: The application may take a few moments to start. Its availability and performance depend on the hosting service and external API providers.
 
 An AI-powered research assistant that searches the web, extracts relevant facts, and generates structured, evidence-based research reports.
 
