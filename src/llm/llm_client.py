@@ -6,7 +6,7 @@ from langchain_openai import ChatOpenAI
 
 
 class LLMClient:
-    def __init__(self, temperature: float = 0.2, max_tokens: int = 2000,):
+    def __init__(self, temperature: float = 0.2, max_tokens: int = 2000,timeout: int = 30,max_retries: int = 0,):
         # Load environment variables from .env
         load_dotenv()
 
@@ -28,6 +28,8 @@ class LLMClient:
             base_url=base_url,
             temperature=temperature,
             max_tokens=max_tokens,
+            timeout=timeout,
+            max_retries=max_retries,
         )
 
     def invoke(self, message: str) -> str:

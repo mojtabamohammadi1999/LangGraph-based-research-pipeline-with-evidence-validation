@@ -5,6 +5,7 @@ from .research_task import ResearchTask
 from .research_plan import ResearchPlan
 from .search_result import SearchResult
 from .page_content import PageContent
+from .fact_extraction import ExtractedFact, FactExtraction
 
 __all__ = [
     "Source",
@@ -14,4 +15,6 @@ __all__ = [
     "ResearchPlan",
     "SearchResult",
     "PageContent",
+    "ExtractedFact",
+    "FactExtraction",
 ]
