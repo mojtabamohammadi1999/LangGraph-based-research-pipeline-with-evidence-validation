@@ -112,8 +112,6 @@ research-agent/
 │   │
 │   ├── llm/
 │   │   └── llm_client.py
-│   │
-│   └── utils/
 │
 ├── notebooks/
 ├── docs/
@@ -131,6 +129,7 @@ research-agent/
 ```bash
 git clone https://github.com/mojtabamohammadi1999/ai-research-agent.git
 cd ai-research-agent
+```
 
 ### 2. Create a Conda environment
 
