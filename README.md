@@ -1,49 +1,5 @@
 # 🔬 LangGraph-based research pipeline with evidence validation
 
-## 🚀 How to Run Locally
-
-### 1. Clone the Repository
-
-```bash
-git clone https://github.com/mojtabamohammadi1999/ai-research-agent.git
-cd ai-research-agent
-```
-
-### 2. Create and Activate a Virtual Environment
-
-```bash
-conda create -n ai-research-agent python=3.11
-conda activate ai-research-agent
-```
-
-### 3. Install Dependencies
-
-```bash
-pip install -r requirements.txt
-```
-
-### 4. Configure Environment Variables
-
-Create a `.env` file in the project root directory and add your API credentials:
-
-```env
-GAPGPT_API_KEY=your_api_key
-GAPGPT_BASE_URL=https://api.gapgpt.app/v1
-GAPGPT_MODEL=gpt-4o-mini
-TAVILY_API_KEY=your_tavily_api_key
-```
-
-Replace the placeholder values with your actual API credentials.
-
-### 5. Run the Application
-
-```bash
-streamlit run app.py
-```
-
-The application will open in your browser, where you can submit research questions and generate research reports.
-
-
 ## Overview
 
 This project is a Python-based application designed to automate a basic research workflow using Large Language Models (LLMs), web search, and structured information extraction.
@@ -160,9 +116,6 @@ research-agent/
 │   └── utils/
 │
 ├── notebooks/
-├── tests/
-├── data/
-├── reports/
 ├── docs/
 │
 ├── .env
