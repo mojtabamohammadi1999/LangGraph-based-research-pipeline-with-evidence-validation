@@ -131,9 +131,6 @@ research-agent/
 ```bash
 git clone https://github.com/mojtabamohammadi1999/ai-research-agent.git
 cd ai-research-agent
-```
-
-Replace `YOUR_USERNAME` with your GitHub username and adjust the repository URL if necessary.
 
 ### 2. Create a Conda environment
 
