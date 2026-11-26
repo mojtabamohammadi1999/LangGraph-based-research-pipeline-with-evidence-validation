@@ -1,4 +1,4 @@
-# 🔬 AI Research Agent
+# 🔬 LangGraph-based research pipeline with evidence validation
 
 ## 🚀 How to Run Locally
 
@@ -46,7 +46,7 @@ The application will open in your browser, where you can submit research questio
 
 ## Overview
 
-AI Research Agent is a Python-based application designed to automate a basic research workflow using Large Language Models (LLMs), web search, and structured information extraction.
+This project is a Python-based application designed to automate a basic research workflow using Large Language Models (LLMs), web search, and structured information extraction.
 
 Users can submit a research question through a Streamlit interface. The agent then creates a research plan, searches the web, reads relevant pages, extracts facts with supporting quotes, synthesizes the collected evidence, and generates a research report with source references.
 
