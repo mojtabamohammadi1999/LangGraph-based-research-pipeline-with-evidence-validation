@@ -4,7 +4,7 @@
 
 This project is a Python-based application designed to automate a basic research workflow using Large Language Models (LLMs), web search, and structured information extraction.
 
-Users can submit a research question through a Streamlit interface. The agent then creates a research plan, searches the web, reads relevant pages, extracts facts with supporting quotes, synthesizes the collected evidence, and generates a research report with source references.
+Users can submit a research question through a Streamlit interface. The workflow then creates a research plan, searches the web, reads relevant pages, extracts facts with supporting quotes, synthesizes the collected evidence, and generates a research report with source references.
 
 The project demonstrates how to build a modular AI application using LangChain, LangGraph, and external APIs.
 
