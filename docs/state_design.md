@@ -165,26 +165,7 @@ The project uses a combination of TypedDict and Pydantic.
 This approach keeps the Graph State simple while maintaining data validation.
 
 
-
-\## 5. Execution Limits
-
-
-
-The initial execution limits are:
-
-
-
-\-Maximum research iterations:10
-
-\-Maximum tool calls:15
-
-
-
-The counters are maintained in the State, while the actual limits are managed through configuration.
-
-
-
-\## 6. State Update Strategy
+\## 5. State Update Strategy
 
 
 
@@ -214,7 +195,7 @@ The initial workflow is sequential. More advanced state merging and reducers can
 
 
 
-\## 7. Design Principles
+\## 6. Design Principles
 
 
 
